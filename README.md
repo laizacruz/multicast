@@ -1,5 +1,7 @@
 # Multicast Experimental Programs (IPv4 & IPv6)
 
+Simple multicast test programs for IPv4 and IPv6, designed for educational use and tested with real Cisco gear.
+
 This repository contains simple yet robust multicast test programs for both IPv4 and IPv6. These tools are designed for educational and experimental use, especially in environments where understanding multicast behavior is critical. The programs have been tested with real Cisco gear and support both ASM and SSM models.
 
 ## 🔍 Overview
