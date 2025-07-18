@@ -9,14 +9,14 @@ This repository contains simple yet robust multicast test programs for both IPv4
 - `multicast.c`: IPv4 multicast sender/receiver
 - `multicast6.c`: IPv6 multicast sender/receiver
 - Supports site-local multicast groups (`239.1.1.1`, `ff15::1`)
-- Compatible with ASM and SSM
+- Compatible with ASM, SSM and Bidir
 - Designed for clarity and practical use in labs and classrooms
 
 ## 🧪 Tested With
 
-- Cisco Catalyst and ISR series routers
-- VirtualBox environments with USB NICs
-- AlmaLinux 9.4 as virtual machine
+- Cisco ISR series routers and Catalyst switches 
+- VirtualBox environments with USB NICs in bridge mode
+- AlmaLinux 9.4 as guest OS on virtual machine
 - IGMPv2/v3 and MLDv2 scenarios
 - Both IPv4 and IPv6 multicast routing setups
 
