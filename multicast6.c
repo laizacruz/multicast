@@ -34,10 +34,12 @@
  * Example:
  *
  *         ./multicast6 send ff15::1 12345                           // normal sender
- *         ./multicast6 recv ff15::1 12345 2001:db8:0:1::1           // SSM
+ *         ./multicast6 send ff15::1 12345                           // normal receiver
+ *         ./multicast6 recv ff15::1 12345 2001:db8:0:1::1           // SSM receiver
  *         ./multicast6 send ff15::1 12345 - enp0s3                  // select local i/f to send
- *         ./multicast6 recv ff15::1 12345 - enp0s3                  // select local i/f to recv
+ *         ./multicast6 recv ff15::1 12345 - enp0s3                  // select local i/f to receive
  *         ./multicast6 recv ff15::1 12345 2001:db8:0:1::1 enp0s3    // SSM & local i/f
+ *         ./multicast6 both ff15::1 12345                           // bidir sender and receiver
  *
  * Compile options:
  *
